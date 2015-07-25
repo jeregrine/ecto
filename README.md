@@ -62,12 +62,13 @@ SQLite3                 | Sqlite.Ecto            | [sqlite_ecto][sqlite_ecto]
 [tds_ecto]: https://github.com/livehelpnow/tds_ecto
 [sqlite_ecto]: https://github.com/jazzyb/sqlite_ecto
 
+
 For example, if you want to use PostgreSQL, add to your `mix.exs` file:
 
 ```elixir
 defp deps do
   [{:postgrex, ">= 0.0.0"},
-   {:ecto, "~> 0.13.1"}]
+   {:ecto, "~> 0.14.3"}]
 end
 ```
 
@@ -93,6 +94,7 @@ We are currently looking for contributions to add support for other SQL database
 
 ## Important links
 
+  * [Hex](https://hex.pm/packages/ecto) Keep an eye on this for the latest versions of Ecto.
   * [Documentation](http://hexdocs.pm/ecto)
   * [Mailing list](https://groups.google.com/forum/#!forum/elixir-ecto)
   * [Examples](https://github.com/elixir-lang/ecto/tree/master/examples)
